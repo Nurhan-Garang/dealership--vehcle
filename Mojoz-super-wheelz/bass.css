@@ -1,0 +1,132 @@
+body {
+  background-color:#fffff0;
+  color: #f5f5dc;
+  line-height: 1.6;
+}
+
+header {
+  background-color:white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #FF4F5A;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: navy;
+}
+
+nav a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.book-btn {
+  background-color: navy;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: blue;
+  color: #000000;
+}
+
+.footer1{
+  background-color: #fffff0;
+  color: black;
+  padding: 3rem 2rem;
+}
+
+.container.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+.footer-section h3 {
+  color: navy;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+.footer-section ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-section input[type="email"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.footer-section button {
+  padding: 0.5rem;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-section button:hover {
+  background-color: #1a1a8a;
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #FF4F5A; /* optional: adds a nice subtle separation */
+  font-size: 0.9rem;
+  color: #333;
+}
+.book-test-drive {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: navy; /* Navy Blue */
+  color: #f5f1e9;            /* Beige Text */
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.book-test-drive:hover {
+  background-color: blue; /* Slightly lighter navy for hover */
+  color: #ffffff;
+}
